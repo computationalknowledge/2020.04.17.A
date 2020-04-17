@@ -1,0 +1,12 @@
+// Arrays
+
+var myData = [];
+// w  ww. j a va  2  s.  c  o  m
+myData.push(1); // add at the end 
+console.log(myData); // prints [1] 
+
+myData.unshift(2); // add to the top 
+console.log(myData); // prints [2,1] 
+
+// Arrays are zero index based: 
+console.log(myData[0]); // prints 2
